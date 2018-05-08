@@ -17,7 +17,7 @@ from tf_rllab.policies.gaussian_mlp_policy import GaussianMLPPolicy
 
 from tf_rllab import RLLabRunner
 
-from rllab.config_personal import expert_trajs_path, model_path
+from trn.config import model_path
 
 from rllab.envs.gym_env import GymEnv
 
